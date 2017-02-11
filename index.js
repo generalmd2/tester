@@ -11,8 +11,8 @@ var memberCount = client.users.size;
 var servercount = client.guilds.size;
   var servers = client.guilds.array().map(g => g.name).join(',');
   console.log("--------------------------------------");
-  console.log('[!]Connexion en cours... \n[!]Veuillez Patienté! \n[!]Les évenement sont après ! :smiley:  \n[!]);
-  client.user.setGame(status, streamingURL); //Joue à ...
+  console.log('[!]Connexion en cours... \n[!]Veuillez Patienté! \n[!]Les évenement sont après ! :smiley:  \n[!]');
+  client.user.setGame(status); //Joue à ...
 });
 
 client.on("message", message => {
