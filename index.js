@@ -1,6 +1,5 @@
 const discord = require('discord.js');
 const client = new discord.Client;
-//const token = "Mjc5OTIyMzQxNDc4MTM3ODU2.C4B5hA.16zG9SKeRGGfBX2YwFswmGm_hlk";
 const prefix = "=";
 var status = prefix + "aide";
 const mention  = "test";
@@ -39,4 +38,4 @@ if (!dt) {
 }
 
 client.login(dt);
-client.login(token)
+
