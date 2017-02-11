@@ -1,6 +1,6 @@
 const discord = require('discord.js');
 const client = new discord.Client;
-const token = "Mjc5OTIyMzQxNDc4MTM3ODU2.C4B5hA.16zG9SKeRGGfBX2YwFswmGm_hlk";
+//const token = "Mjc5OTIyMzQxNDc4MTM3ODU2.C4B5hA.16zG9SKeRGGfBX2YwFswmGm_hlk"; //token bot test
 const prefix = "=";
 var status = prefix + "aide";
 const mention  = "test";
@@ -32,5 +32,11 @@ client.on("message", message => {
 */
 
 })
+var dt = process.env.DISCORD_TOKEN || process.argv[2];
 
+if (!dt) {
+    console.log('Mjc5OTIyMzQxNDc4MTM3ODU2.C4B5hA.16zG9SKeRGGfBX2YwFswmGm_hlk');
+}
+
+client.login(dt);
 client.login(token)
