@@ -1,0 +1,21 @@
+{
+  "name": "bottesteur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "node-lolibooru": "0.0.3",
+    "node-opus": "^0.2.4",
+    "opusscript": "0.0.1",
+    "react": "^15.4.2",
+    "react-tools": "^0.13.3",
+    "react-yugioh": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moi",
+  "license": "MIT"
+}
