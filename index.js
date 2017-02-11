@@ -1,6 +1,6 @@
 const discord = require('discord.js');
 const client = new discord.Client;
-const token = "MjcxMzE0NTE0NDEzMDkyODY0.C2fU9Q.P7FDWBLLOhl5WyoZZAoqknX3WZg";
+const token = "Mjc5OTIyMzQxNDc4MTM3ODU2.C4B5hA.16zG9SKeRGGfBX2YwFswmGm_hlk";
 const prefix = "=";
 var status = prefix + "aide";
 var streamingURL = "http://densetsuno.forumactif.org";
@@ -20,11 +20,6 @@ var servercount = client.guilds.size;
 });
 
 client.on("message", message => {
-	/* Rubrique NSFW */
-	if (message.content.startsWith(prefix + 'porn')){
-		var porc = message.content.substr(5);
-		prn.searchVideo(porc).then(console.log);
-	}
 	if (message.content.startsWith(prefix + 'loli')){
 		var lolli = message.content.substr(5);
 
