@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^10.0.1"
+    "discord.js": "^10.0.1",
     "node-opus": "^0.2.4",
     "opusscript": "0.0.1"
   },
