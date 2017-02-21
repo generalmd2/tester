@@ -1,0 +1,24 @@
+{
+  "name": "densetsunobot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "moi",
+  "license": "MIT",
+  "dependencies": {
+    "booru": "^0.1.3",
+    "discord.js": "^10.0.1",
+    "google": "^2.1.0",
+    "google-translate-api": "^2.2.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "malapi": "0.0.3",
+    "node-opus": "^0.2.1",
+    "opusscript": "0.0.1",
+    "random-anime-wallpapers": "^1.1.0",
+    "weather-js": "^1.0.2"
+  }
+}
